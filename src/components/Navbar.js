@@ -11,8 +11,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
+import { FaBars } from "react-icons/fa"; // Import the icon
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -45,9 +45,7 @@ function NavBar() {
             updateExpanded(expand ? false : "expanded");
           }}
         >
-          <span></span>
-          <span></span>
-          <span></span>
+          <FaBars style={{ color: "white" }} /> {/* Add the icon here */}
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
