@@ -12,7 +12,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import { FaBars } from "react-icons/fa"; // Import the icon
+import { FaBars } from "react-icons/fa"; 
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
