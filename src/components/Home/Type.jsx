@@ -10,6 +10,7 @@ function Type() {
           "Junior Web Developer",
           "Front end Developer",
           "Back end Developer",
+          "Full Stack Developer",
         ],
         autoStart: true,
         loop: true,
